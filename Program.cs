@@ -6,7 +6,7 @@ class Program
     {
         var lines = await File.ReadAllLinesAsync("input.txt");
 
-        var sut = new Day07();
+        var sut = new Day09();
         sut.Run(lines);
     }
 }
