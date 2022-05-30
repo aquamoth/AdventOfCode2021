@@ -4,9 +4,9 @@ class Program
 {
     public static async Task Main()
     {
-        var lines = await File.ReadAllLinesAsync("input.txt");
+        var lines = await File.ReadAllLinesAsync("test.txt");
 
-        var sut = new Day10();
+        var sut = new Day14();
         sut.Run(lines);
     }
 }
